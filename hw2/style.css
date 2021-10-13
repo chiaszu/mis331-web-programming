@@ -1,36 +1,33 @@
-body{
-    font-family: 'Roboto', sans-serif;
- }
-
-
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-h3{
-    text-decoration: underline ;
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-blockquote{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+h3 {
+  text-decoration: underline;
 }
 
-ol{
-    list-style-type: lower-alpha;
+blockquote {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
-th{
-    background-color: rgb(195, 210, 223);
-    text-align: left;
+ol {
+  list-style-type: lower-alpha;
+}
+
+th {
+  background-color: rgb(195, 210, 223);
+  text-align: left;
 }
 
 a:link {
-    color:rgb(195, 210, 223);
+  color: rgb(195, 210, 223);
 }
 
 a:hover {
-    color:orange
+  color: orange;
 }
-
-
