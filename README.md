@@ -1,6 +1,6 @@
 
-[hw1-html](hw1-html)
+[class1-html](class1-html)
 
-[hw2-css](hw2-css)
+[class2-css](class2-css)
 
-[hw3-page-layout](hw3-page-layout)
+[class3-page-layout](class3-page-layout)
