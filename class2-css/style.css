@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+blockquote {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+th {
+  background-color: rgb(195, 210, 223);
+  text-align: left;
+}
+
+a:link {
+  color: rgb(195, 210, 223);
+}
+
+a:hover {
+  color: orange;
+}
