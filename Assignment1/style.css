@@ -1,3 +1,144 @@
 .card_container {
-    padding: 10px 0px; /* for padding sections */
+  padding: 10px 0px; /* for padding sections */
+}
+html {
+  font-family: "Noto Sans TC", sans-serif;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+header {
+  height: 90px;
+  width: 1024px;
+  background-color: #0b3c5d;
+}
+
+#banner {
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 85%;
+}
+
+#AACSB {
+  height: 30px;
+  background-color: white;
+  padding: 2px;
+  position: absolute;
+  left: 410px;
+  top: 35px;
+}
+
+/* first section */
+.title {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 3px 9px 0px;
+  border-left: 7px solid #f3c677;
+  margin-left: 9px;
+  margin-bottom: 7px;
+}
+
+.tline {
+  width: 1000px;
+  margin-left: 20px;
+  margin-bottom: 9px;
+  border-bottom: 3px solid lightgrey;
+}
+
+.flex-container {
+  display: flex;
+  margin-left: 10px;
+}
+
+figure {
+  margin: 0 5px;
+  transition: all 0.5s;
+}
+
+figure img {
+  height: 212px;
+  width: 323px;
+  /* border: 1px solid lightgray; */
+  /* margin: 0 5px; */
+  vertical-align: middle;
+}
+
+figure figcaption {
+  border: 1px solid lightgray;
+  border-top: none;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+figure:hover {
+  box-shadow: 0 0 10px gray;
+}
+
+/* second section */
+#second_section {
+  background-color: #0b3c5d;
+  color: white;
+  width: 1024px;
+}
+
+.program {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 8px; */
+}
+
+.item {
+  display: flex; /* asked TA*/
+  flex-direction: column; /* asked TA*/
+  background-color: white;
+  width: 220px;
+  height: 100px;
+  color: #0b3c5d;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin: 15px;
+  /* padding: 0 3px 0; */
+  justify-content: center; /* asked TA*/
+}
+
+.item:hover {
+  filter: brightness(1.5);
+}
+
+/* third section */
+#third_section p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 25px;
+}
+
+/* footer */
+footer {
+  height: 90px;
+  width: 1024px;
+  background-color: #0b3c5d;
+}
+
+footer img {
+  height: 50px;
+  width: auto;
+  padding: 5px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+  padding-left: 12px;
+  padding-top: 3px;
+  margin: 0;
 }
