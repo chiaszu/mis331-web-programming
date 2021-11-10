@@ -1,5 +1,5 @@
 
-[Oct6 html](html)
+[Oct 6 html](html)
 
 [Oct 13 css](css)
 
