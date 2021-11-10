@@ -1,6 +1,10 @@
 
-[class1-html](class1-html)
+[Oct6 html](html)
 
-[class2-css](class2-css)
+[Oct 13 css](css)
 
-[class3-page-layout](class3-page-layout)
+[Oct 20 page-layout](page-layout)
+
+[Nov 10 button-show-email](buttom-show-email)
+
+[Nov 10 light-dark-mode](light-dark-mode)
