@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  /* border: 1px solid transparent; */
+}
+html {
+  margin: 0;
+}
+div h1 {
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  color: #001c54;
+}
+div p {
+  color: #001c54;
+  font-family: "Merriweather", serif;
+  font-weight: lighter;
+}
+h1 span {
+  color: #969da6;
+}
+/* header */
+.header {
+  text-align: center;
+}
+.header h1 {
+  /* display: inline; */
+  text-align: left;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 13vw;
+  color: white;
+  position: absolute;
+  top: 25vw;
+  left: 38vw;
+  transform: translate(-50%, -50%);
+}
+.header img,
+.header video {
+  width: 100%;
+  /* height: 100%; */
+  filter: brightness(85%);
+  /* position: relative; */
+}
+
+/* section1 */
+.section1 {
+  display: flex;
+}
+.section1 img {
+  width: 30%;
+  margin: 20px 30px 30px;
+}
+@media only screen and (max-width: 800px) {
+  .section1 img {
+    margin: 20px 0 30px;
+  }
+}
+.section1 h1 {
+  margin-right: 30px;
+  text-align: right;
+}
+.section1 p {
+  text-align: left;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .section1 {
+    flex-direction: column-reverse;
+  }
+  .section1 img {
+    width: 100%;
+    margin-bottom: 0;
+    /* margin: 20px 30px 30px; */
+  }
+  .section1 h1,
+  .section1 p {
+    margin-left: 30px;
+    text-align: left;
+  }
+}
+
+/* section2 */
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 15px; */
+  background-color: #f2ecdc;
+}
+.section2 h1,
+p {
+  /* display: flex; */
+  flex-direction: column;
+  padding-left: 20px;
+}
+.section2 .gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .gallery img,
+.section2 .gallery video {
+  width: 30%;
+  margin: 25px 1%;
+}
+@media only screen and (max-width: 800px) {
+  .section2 {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-content: flex-start;
+    padding-bottom: 20px;
+  }
+}
+
+/* section3 */
+.section3 {
+  display: flex;
+}
+.section3 img {
+  width: 30%;
+  margin: 20px 30px 30px;
+}
+.section3 video {
+  width: 30%;
+  margin: 20px 30px 30px;
+}
+.section3 h1 {
+  margin-right: 30px;
+  text-align: right;
+}
+.section3 p {
+  text-align: left;
+  margin-right: 30px;
+}
+@media only screen and (max-width: 800px) {
+  .section3 {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .section3 img {
+    width: 100%;
+    margin: 0;
+  }
+  .section3 video {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .section3 h1,
+  .section3 p {
+    margin-left: 30px;
+    text-align: left;
+  }
+}
+
+/* end */
+.end {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+}
+.end h3 {
+  /* display: inline; */
+  text-align: left;
+  font-family: "Merriweather";
+  font-size: 2vw;
+  /* padding: px; */
+  font-weight: lighter;
+  color: rgb(250, 245, 245);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: 0; */
+}
+#stonehenge h3 {
+  font-size: 1.79vw;
+}
+.end span {
+  position: absolute;
+  left: 60%;
+}
+.end img {
+  width: 100%;
+  filter: brightness(65%);
+  display: block;
+  /* position: relative; */
+}
