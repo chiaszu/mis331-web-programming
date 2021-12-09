@@ -1,10 +1,10 @@
 
-[Oct 6 html](html)
+[**Oct 6** html](html)
 
-[Oct 13 css](css)
+[**Oct 13** css](css)
 
-[Oct 20 page-layout](page-layout)
+[**Oct 20** page-layout](page-layout)
 
-[Nov 10 button-show-email](buttom-show-email)
+[**Nov 10** button-show-email](buttom-show-email)
 
-[Nov 10 light-dark-mode](light-dark-mode)
+[**Nov 10** light-dark-mode](light-dark-mode)
