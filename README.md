@@ -11,4 +11,4 @@
 
 [**DEC** - jquery-and-php](jquery-and-php)
 
-[**DEC** - term-project](project)
+[**DEC** - term-project](term-project)
